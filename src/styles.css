@@ -11,3 +11,7 @@
 .badge{
     @apply absolute top-0 ml-2 mt-2 p-2 bg-secondary-100 text-secondary-200 uppercase font-bold rounded-full text-xs;
 }
+
+.btn {
+    @apply rounded-full text-xs font-bold px-3 py-2 uppercase tracking-wider;
+}
