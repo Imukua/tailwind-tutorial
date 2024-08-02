@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="text-gray-600 font-body">
+<body class="text-gray-600 font-body ">
 
-  <div>
-    <div>
+  <div class="grid md:grid-cols-3">
+    <div class="md:col-span-1">
       <nav>
         <div class="p-4">
           <h1 class="font-bold  border-b border-gray-100 p-4 text-sm md:text-lg uppercase">
@@ -37,7 +37,7 @@
       </nav>
     </div>
 
-    <main class="px-16 py-16">
+    <main class="px-16 py-16 md:col-span-2 ">
       <div class="text-primary flex justify-center md:justify-end">
         <a href="#">Log in</a>
         <a href="#" class="ml-2">Sign up</a>
@@ -51,10 +51,30 @@
       <div>
         <h4 class="font-bold mt-12 pb-2 border-b border-red-200">Latest Recipes</h4>
 
-        <div>
+        <div class=" mt-8 gap-10 grid lg:grid-cols-3">
           <!-- cards go here -->
           <div class="card">
             <img src="img/stew.jpg" alt="stew" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4 ">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+            </div>
+            <div class="badge">
+              <span>25 mins</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/curry.jpg" alt="curry" class="w-full h-32 sm:h-48 object-cover">
+            <div class="m-4 ">
+              <span class="font-bold">5 Bean Chili Stew</span>
+              <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+            </div>
+            <div class="badge">
+              <span>25 mins</span>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/noodles.jpg" alt="noodles" class="w-full h-32 sm:h-48 object-cover">
             <div class="m-4 ">
               <span class="font-bold">5 Bean Chili Stew</span>
               <span class="block text-gray-500 text-sm">Recipe by Mario</span>
